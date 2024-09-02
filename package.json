@@ -1,0 +1,27 @@
+{
+  "name": "newsletta-waitlist",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.0.20",
+    "@fontsource/lato": "^5.0.22",
+    "@fontsource/montserrat": "^5.0.19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.42",
+    "tailwindcss": "^3.4.10",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.1",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  },
+  "type": "module"
+}
