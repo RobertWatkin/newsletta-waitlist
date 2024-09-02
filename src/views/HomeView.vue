@@ -29,7 +29,6 @@ const submit = () => {
 
   // submit form to https://formspree.io/f/xvgpypkp
   if (emailError.value === '' && nameError.value === '') {
-    console.log("submitting form...");
     const form = new FormData();
     form.append('Email', email.value);
     form.append('Name', name.value);
@@ -39,7 +38,6 @@ const submit = () => {
       // mode: 'no-cors',
       body: form
     }).then(response => {
-      console.log(response);
       if (response.ok) {
         submitSuccess.value = true;
         email.value = '';
@@ -65,7 +63,6 @@ const submit = () => {
       <p class="p-3">Thank you for joining the waitlist!</p>
     </div>
   </Transition>
-
   <div
     class="h-screen w-full bg-gradient-to-br from-emerald-500 to-teal-600 flex flex-col md:flex-row items-center font-sans">
     <div class="w-full md:w-1/2 bg-gray-200 bg-opacity-80 m-12 rounded-lg shadow-lg p-8 md:order-2">
