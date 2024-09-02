@@ -34,7 +34,7 @@ const submit = () => {
     form.append('Email', email.value);
     form.append('Name', name.value);
 
-    fetch('https://script.google.com/macros/s/AKfycbxZHZqHOlP07Mlbzuj89fcOT5VrBxAO4wQ4oxlgt_DSuj49EQThBKesR1YzvyEa_J96/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxfS_e4kpuWSbRYqomeVLQE4EOzdT2hVeOq8krEZXQoj5G7d36rHJYBhaEwhd0WjoZQuQ/exec', {
       method: 'POST',
       // mode: 'no-cors',
       body: form
